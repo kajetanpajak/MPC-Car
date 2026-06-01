@@ -1,0 +1,50 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+tswr_venv/
+.venv/
+venv/
+env/
+
+# Build / package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# acados generated solver code
+c_generated_code/
+acados_generated/
+build/acados_mpc/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Matplotlib cache / local runtime files
+.mplconfig/
+*.log
+
+# Local env files
+.env
+.env.*
+
+.codex
+.agents/
