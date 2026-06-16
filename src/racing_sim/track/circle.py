@@ -36,3 +36,4 @@ class CircleTrack:
         :rtype: float
         """
         return s / self.radius
+    

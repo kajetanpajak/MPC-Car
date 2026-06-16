@@ -51,7 +51,6 @@ class EllipseTrack:
                                  (dx_dtheta ** 2 + dy_dtheta ** 2) ** 1.5    )
         
         
-        
     def curvature(self, s: float) -> float:
         s_wrapped = s % self.length
         
