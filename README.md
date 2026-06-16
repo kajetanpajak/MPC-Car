@@ -52,8 +52,5 @@ Run scripts from the project root, otherwise acados C generated code will genera
 Examples:
 
 ```bash
-python scripts/test_mpc.py
-python scripts/test_progress_mpc.py
+python scripts/progress_mpc.py
 ```
-
-If you keep a personal activation script with machine-specific paths, copy `activate_acados_example.sh` to something like `activate_acados.sh`, edit that copy, and do not commit local absolute paths.
